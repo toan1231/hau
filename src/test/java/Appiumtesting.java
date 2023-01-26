@@ -30,7 +30,7 @@ public class Appiumtesting {
         cap.setCapability("appPackage", "com.android.calculator2");
         cap.setCapability("appActivity", ".Calculator");
        // URL url = new URL("http://127.0.0.1:4723/wd/hub");
-       AndroidDriver<AndroidElement> dc = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+       AndroidDriver<AndroidElement> dc = new AndroidDriver<AndroidElement>(new URL("http://0.0.0.0:4723/wd/hub"), cap);
     MobileElement el1 = (MobileElement) dc.findElementById("com.android.calculator2:id/digit_7");
     el1.click();
     MobileElement el2 = (MobileElement) dc.findElementByAccessibilityId("plus");
