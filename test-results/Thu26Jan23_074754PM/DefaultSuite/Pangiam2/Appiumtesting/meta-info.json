@@ -1,0 +1,22 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "test1",
+        "resultFileName": "Test1",
+        "sign": "Appiumtesting.test1()[pri:0, instance:Appiumtesting@478190fc]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1674780454754,
+      "duration": 19937,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
