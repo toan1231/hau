@@ -37,6 +37,8 @@ public class Appiumtesting {
         el3.click();
         MobileElement el4 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout");
         el4.click();
+        MobileElement el5 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout");
+        el5.click();
 
 
     }
