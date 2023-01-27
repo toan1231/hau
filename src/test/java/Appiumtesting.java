@@ -20,7 +20,7 @@ public class Appiumtesting {
     public static void test1() throws MalformedURLException {
 
 
-
+   //SET THE DESIREDCAPABILITIES TO SEND TO THE APPIUM SERVER
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability(MobileCapabilityType.DEVICE_NAME,"emulator-5554");
         cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
@@ -29,6 +29,7 @@ public class Appiumtesting {
 
         cap.setCapability("appPackage", "com.android.calculator2");
         cap.setCapability("appActivity", ".Calculator");
+        //WE CREATE THE NEW URL TO CONNECT TO 
        // URL url = new URL("http://127.0.0.1:4723/wd/hub");
        AndroidDriver<AndroidElement> dc = new AndroidDriver<AndroidElement>(new URL("http://0.0.0.0:4723/wd/hub"), cap);
     MobileElement el1 = (MobileElement) dc.findElementById("com.android.calculator2:id/digit_7");
